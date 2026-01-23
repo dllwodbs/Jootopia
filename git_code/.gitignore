@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+tmp_*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (대용량 데이터는 커밋 제외)
+data/cal_data/*.parquet
+data/cal_data/*.csv
+data/raw_data/*.parquet
+data/interim/*.parquet
+data_backup/
+*.pkl
+*.h5
+*.hdf5
+*.joblib
+
+# Artifacts (모델 가중치, 리포트 산출물)
+artifacts/models/
+artifacts/reports/
+artifacts/runs/
+!artifacts/.gitkeep
+!artifacts/README.md
+
+# Results and experiments
+experiments/*.csv
+experiments/*.png
+results/
+!results/README.md
+
+# Baseline backups (baseline 폴더들은 git에 포함하지 않음)
+baseline_*/
+
+# Config backups
+configs/*_backup*.yaml
+configs/*_baseline*.yaml
+
+# Test outputs
+test_*.txt
+*_output.txt
+*_results.txt
+
+# Backup files
+*.backup
+*.bak
+
+# Local configuration
+config.local.yaml
+secrets.yaml
+.env.local
+
+# LOCAL_TRASH (정리된 불필요 파일들)
+LOCAL_TRASH/
+
+# Unused code (참고용이지만 커밋 제외 가능)
+# unused/
+
+# Analysis temporary files
+docs/_*.txt
+docs/_*.csv
+
+# Data drive (외부 드라이브에 별도 업로드)
+data_drive/
